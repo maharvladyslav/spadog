@@ -1,29 +1,64 @@
 :root {
   /* шрифти */
   --fontPrimary: "Raleway", serif;
-  --textSecondary: "Oswald", serif;
+  --fontSecondary: "Oswald", serif;
   /* кольори */
   --colorTextPrimary: #000000;
-  --colorTExtContrast: #ffffff;
+  --colorTextContrast: #ffffff;
   --colorButton: #b2ffa6;
-  --colorBGPrimary: #121212;
-  --colorBGSection: #efefef;
+  --colorBgPrimary: #121212;
+  --colorBgSection: #efefef;
 }
 body {
-  font-family: var(--textPrimary);
+  font-family: var(--fontPrimary);
   color: var(--colorTextPrimary);
   font-size: 24px;
   line-height: 1.17;
   font-weight: 400;
 }
 .header {
-  background-color: var(--colorTextPrimary);
+  background-color: var(--colorBgPrimary);
 }
 .nav-link {
-  font-family: var(--textSecond);
-  color: var(--colorTExtContrast);
+  font-family: var(--fontSecondary);
+  color: var(--colorTextContrast);
   text-decoration: none;
 }
 .nav-link:hover {
   color: var(--colorButton);
+}
+/* hero */
+.hero-title {
+  font-weight: inherit;
+  font-size: 64px;
+  text-transform: capitalize;
+}
+.hero-title-part {
+  font-weight: 700;
+}
+.hero-button {
+  background-color: var(--colorButton);
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  font-family: var(--fontSecondary);
+  font-size: 26px;
+}
+/* about */
+.about {
+  background-color: var(--colorBgSection);
+}
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.about-text {
+  line-height: 1.19;
+  font-size: 32px;
+}
+.about-link {
+  background-color: var(--colorButton);
+  font-family: var(--fontSecondary);
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
