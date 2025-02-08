@@ -1,7 +1,7 @@
 :root {
   /* шрифти */
-  --textPrimary: "Raleway", serif;
-  --textSecond: "Oswald", serif;
+  --fontPrimary: "Raleway", serif;
+  --textSecondary: "Oswald", serif;
   /* кольори */
   --colorTextPrimary: #000000;
   --colorTExtContrast: #ffffff;
