@@ -1,0 +1,29 @@
+:root {
+  /* шрифти */
+  --textPrimary: "Raleway", serif;
+  --textSecond: "Oswald", serif;
+  /* кольори */
+  --colorTextPrimary: #000000;
+  --colorTExtContrast: #ffffff;
+  --colorButton: #b2ffa6;
+  --colorBGPrimary: #121212;
+  --colorBGSection: #efefef;
+}
+body {
+  font-family: var(--textPrimary);
+  color: var(--colorTextPrimary);
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: 400;
+}
+.header {
+  background-color: var(--colorTextPrimary);
+}
+.nav-link {
+  font-family: var(--textSecond);
+  color: var(--colorTExtContrast);
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--colorButton);
+}
