@@ -62,4 +62,5 @@ body {
   font-family: var(--fontSecondary);
   letter-spacing: 0.06em;
   text-decoration: none;
+  color: var(--colorTextPrimary);
 }
