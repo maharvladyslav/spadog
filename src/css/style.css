@@ -92,18 +92,30 @@ body {
   line-height: 1.19;
   font-size: 32px;
 }
-
+.about-text:first-of-type {
+  margin-bottom: 40px;
+}
+.about-text:last-of-type {
+  margin-bottom: 60px;
+}
 .about-link {
   background-color: var(--colorButton);
   font-family: var(--fontSecondary);
   letter-spacing: 0.06em;
   text-decoration: none;
   color: var(--colorTextPrimary);
+  display: inline-block;
+  padding: 15px 80px;
 }
 /* benefits */
 .benefits {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.benefits-container {
+  display: flex;
+  gap: 174px;
+  align-items: center;
 }
 .benefits-title {
   font-size: 32px;
